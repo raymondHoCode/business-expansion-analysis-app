@@ -2,7 +2,6 @@
 # biz-map-analysis-app
 
 Front end for a Business Location Analysis app using React, Vite, TypeScript, Tailwind, and Google Maps.
-No backend required. Ready for a future Python backend.
 
 ## Features
 - Landing page with info request (business type, budget, city/address) and a button to open the map
@@ -36,9 +35,3 @@ No backend required. Ready for a future Python backend.
 - The sidebar uses mock properties. Replace with real data from your future Python API.
 - Nearby search uses the Maps Places client from the loaded script. Billing is required for Places.
 - Heatmap requires the `visualization` library, already included in `LoadScript`.
-
-## Next steps
-- Connect to your Python backend for real properties and scoring
-- Add custom icons and info windows
-- Persist user selections in query params or local storage
-- Add clustering for dense marker sets
