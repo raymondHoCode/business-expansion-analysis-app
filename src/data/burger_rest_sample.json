@@ -1,0 +1,76 @@
+
+{
+    "target_industry": "casual_burger",
+    "region": "KW Waterloo Region",
+    "date_generated": "2025-10-24",
+    "candidate_sites": [
+      {
+        "site_id": "001",
+        "address": "95 King St S, Waterloo, ON",
+        "lat": 43.4649,
+        "lng": -80.5208,
+        "sq_ft": 1600,
+        "zoning_type": "Ground-floor retail / food permitted",
+        "parking_access": "Street + nearby public lot",
+        "transit_access": "ION light rail stop within 200m",
+        "walkability_score": 9.0,
+        "foot_traffic_score": 8.7,
+        "nearby_competitor_count": 4,
+        "safety_score": 8.0,
+        "suitability_score": 78
+      },
+      {
+        "site_id": "002",
+        "address": "15 Charles St W, Kitchener, ON",
+        "lat": 43.4502,
+        "lng": -80.4889,
+        "sq_ft": 1400,
+        "zoning_type": "Retail/restaurant allowed",
+        "parking_access": "Limited street parking; relies on foot + transit",
+        "transit_access": "Steps from ION + market events",
+        "walkability_score": 9.3,
+        "foot_traffic_score": 9.0,
+        "nearby_competitor_count": 3,
+        "safety_score": 6.5,
+        "suitability_score": 84
+      },
+      {
+        "site_id": "003",
+        "address": "255 King St W, Kitchener, ON",
+        "lat": 43.4490,
+        "lng": -80.4955,
+        "sq_ft": 2000,
+        "zoning_type": "Restaurant/quick-service permitted",
+        "parking_access": "Street + city garage within 100m",
+        "transit_access": "ION stop <5 min walk",
+        "walkability_score": 8.5,
+        "foot_traffic_score": 8.2,
+        "nearby_competitor_count": 2,
+        "safety_score": 7.0,
+        "suitability_score": 75
+      },
+      {
+        "site_id": "004",
+        "address": "70 University Ave E, Waterloo, ON (student corridor)",
+        "lat": 43.4788,
+        "lng": -80.5209,
+        "sq_ft": 1200,
+        "zoning_type": "Plaza/strip retail, takeout allowed",
+        "parking_access": "Shared plaza lot",
+        "transit_access": "High bus frequency, heavy student foot traffic at night",
+        "walkability_score": 8.0,
+        "foot_traffic_score": 8.8,
+        "nearby_competitor_count": 6,
+        "safety_score": 8.2,
+        "suitability_score": 61
+      }
+    ],
+    "score_definition": {
+      "walkability_score": "1-10. How easy it is for people to reach this block on foot (students, office workers, nightlife). High walkability means spontaneous food stops without needing parking.",
+      "foot_traffic_score": "1-10. How many people are physically passing by daily / per weekend. Boosted by transit stops, events, and pedestrian-focused planning. Waterloo Region has focused investment on walkable Uptown Waterloo and Kitchener Market areas, which increases foot-based spending. ",
+      "nearby_competitor_count": "Number of similar fast-casual burger / fried / sandwich / late-night spots within ~500m. High competition can split demand.",
+      "safety_score": "1-10. Perceived comfort for casual diners / families at night. Lower score might scare off certain customer types even if foot traffic is high.",
+      "suitability_score": "1-100. Overall recommendation for THIS industry (fast casual burger). Combines traffic, walkability, safety, saturation, and size fit."
+    }
+  }
+  
